@@ -16,7 +16,7 @@ function generateCards(data){
         const img    = document.createElement('img');
 
         card.classList.add('item');
-        anchor.href =`./details.html=${single_item.id}`;
+        anchor.href =`./details.html?id=${single_item.id}`;
         card.style.backgroundColor=single_item.color;
         img.src = single_item.urls.thumb;
         
