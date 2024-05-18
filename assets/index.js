@@ -1,5 +1,5 @@
 window.onload=function(){
-    fetch(`https://api.unsplash.com/photos?per_page=25&client_id=${API_KEY}`).then(convert_to_json)
+    fetch(`https://api.unsplash.com/photos?per_page=30&client_id=${API_KEY}`).then(convert_to_json)
     .then(function(data){
         generateCards(data);
 
